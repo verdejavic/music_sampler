@@ -4,54 +4,77 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cris Cab Music Sampler</title>
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Pavanam" rel="stylesheet">
 </head>
 
 <body>
 
-<h1>Cris Cab Music Sampler</h1>
+<div id="heading">
+  <h1>Cris Cab Music Sampler</h1>
+</div>
 
 <div id="largePhoto">
-  <img src="images/againstWall.jpeg" alt="Photo: Cris Cab">
+  <img src="images/againstWall.jpeg" alt="Photo: Cris Cab" id="photo">
   <p>Photo credits: <a href="http://criscab.com/photos/albums/13772">Cris Cab -  Press Photos</a></p>
   <p>Cristian Cabrerizo, better known as Cris Cab, is a 23-year-old songwriter and musician from Miami, Florida. Unlike any other, his unique style of music is a fusion of pop, reggae and soul. Cris Cab has worked with a number of highly successful artists, such as Pharrell Williams, Wyclef Jean and Big Sean. His latest single, "Turn Out The Light," is a cross-genre jam featuring J. Balvin. Check out <a href="http://criscab.com/">his website</a> for <a href="http://criscab.com/events">upcoming tour dates.</a></p>
 </div>
 
-<div id="albumCovers">
-  <img src="images/1.png" alt="Album cover: Foreword">
-  <img src="images/2.png" alt="Album cover: Red Road">
-  <img src="images/3.png" alt="EP cover: Echo Boom">
-  <img src="images/4.png" alt="Album cover: Where I Belong">
+<div id="albums">
+  <img src="images/1.png" alt="Album cover: Foreword" id="1" class="albumCovers">
+  <img src="images/2.png" alt="Album cover: Red Road" id="2" class="albumCovers">
+  <img src="images/3.png" alt="EP cover: Echo Boom" id="3" class="albumCovers">
+  <img src="images/4.png" alt="Album cover: Where I Belong" id="4" class="albumCovers">
 </div>
 
-<div id="goodgirl">
+<div id="goodgirl" class="audioPlayer">
   <audio id="goodgirlAudio" controls preload="auto">
 	    <source src="audio/goodgirl.mp3" type="audio/mp3">
 	    <source src="audio/goodgirl.ogg" type="audio/ogg">
   </audio>
 </div>
 
-<div id="history">
+<div id="goodgirlText" class="audioText">
+  <p>Now playing: Good Girl</p>
+</div>
+
+<div id="history" class="audioPlayer">
   <audio id="historyAudio" controls preload="auto">
-	    <source src="audio/history" type="audio/mp3">
+	    <source src="audio/history.mp3" type="audio/mp3">
 	    <source src="audio/history.ogg" type="audio/ogg">
   </audio>
 </div>
 
-<div id="echoboom">
+<div id="historyText" class="audioText">
+  <p>Now playing: History</p>
+</div>
+
+<div id="echoboom" class="audioPlayer">
   <audio id="echoboomAudio" controls preload="auto">
 	    <source src="audio/echoboom.mp3" type="audio/mp3">
 	    <source src="audio/echoboom.ogg" type="audio/ogg">
   </audio>
 </div>
 
-<div id="liarliar">
+<div id="echoboomText" class="audioText">
+  <p>Now playing: Echo Boom</p>
+</div>
+
+<div id="liarliar" class="audioPlayer">
   <audio id="liarliarAudio" controls preload="auto">
 	    <source src="audio/liarliar.mp3" type="audio/mp3">
 	    <source src="audio/liarliar.ogg" type="audio/ogg">
   </audio>
 </div>
 
+<div id="liarliarText" class="audioText">
+  <p>Now playing: Liar Liar</p>
+</div>
+
 <footer>This page was created by Victoria Verdeja as a class assignment.</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>

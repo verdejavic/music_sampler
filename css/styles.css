@@ -1,0 +1,67 @@
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+body {
+  background: #184957;
+  color: #fff;
+  margin: 20px;
+  font-family: Pavanam, Verdana, Helvetica, sans-serif;
+  font-size: 100%;
+  margin: 0;
+}
+
+h1 {
+  margin:0;
+}
+
+#heading {
+  background: #fff;
+  color: #113640;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+}
+
+#largePhoto {
+  padding: 20px;
+  width: 800px;
+  padding-top: 100px;
+}
+
+#albums {
+  padding: 0 0 20px 20px;
+}
+
+.audioPlayer {
+  padding-left: 20px;
+}
+
+.audioText {
+  padding-left: 20px;
+}
+
+footer {
+  padding: 20px;
+  background: #fff;
+  color: #113640;
+}
+
+a:link, a:visited, a:active {
+    color: #0287b3;
+}
+
+a:hover {
+    color: #3ecbfa;
+}
+
+@media (max-width: 768px) {
+  #largePhoto {
+      width: auto;
+  }
+  #photo {
+      width: 100%;
+  }
+    }
